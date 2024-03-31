@@ -1,0 +1,156 @@
+body {background-color: #E5D1FA;
+	color: rgb(50, 50, 50, 1.0);
+	font-size: 17px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	text-align: justify;
+	min-height: 100vh;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {color: #A149F8;
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  margin-bottom: 17px;
+}
+
+h2 {color: #A149F8;
+ 	font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+
+
+p{text-justify: justify;
+	text-justify: center;
+	font-family: "Quicksand", sans-serif;
+ 	font-optical-sizing: auto;
+ 	font-weight: <weight>;
+ 	font-style: normal;
+ 	font-size: 16px;
+ 	padding: 0 2%;
+ }
+
+ul{
+	padding-left: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+a{font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+	color: #A149F8;
+ 	text-decoration: none;
+ 	transition: color 0.3s ease;
+ 	font-size: 17px;
+}
+
+/*Custom designs with class and id*/
+
+.container {
+	width: 700px;
+	margin: 20px auto;
+	border-radius:50px;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.btn-color {
+	background-color: #EDE8FE;
+	border: 1px solid #40304F;
+	border-radius: 10px;
+	padding: 10px 10px;
+	margin: 0px auto;
+	transition: background-color 0.5s ease, color 0.5s ease;
+	margin-top: 30px;
+	display: block;
+	font-size: 15px;
+}
+
+.btn-color:hover {
+	background-color: #FFE5F1;
+	color: #EE3F8F;
+	border: 1px solid #67324A;
+}
+
+#btn-crew{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+#profile {
+	width: 100%;
+	max-width: 130px;
+	border-radius: 50%;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	border: 4px solid #D8CAFD;
+}
+
+.img-circle {
+	border-radius: 10%;
+}
+
+.card-white {
+	background-color: ghostwhite;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+	border-radius: 25px;
+	padding: 10px 25px;
+	padding-bottom: 25px !important;
+	text-align: center;
+	margin: 30px;
+}
+
+#card {
+	padding-bottom: 40px;
+	padding-top: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.text-less {
+	padding-top: 0px;
+}
+
+
+.list-inline {
+  padding-left: 0;
+ }
+
+.list-inline li {
+ 	margin: 0;
+ 	padding: 0px 0px;
+	list-style: none;
+}
+
+.list-inline i {
+	font-size: 50px;
+	margin: 0px 35px;
+}
+
+.fa-brands:hover {
+	color: #FDBFDB !important; 
+	transition: color 0.5s ease;
+}
